@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #ffffff;
+	text-shadow: 0 1px 5px rgba(0,0,0,.1);
+	font-size:95%;
+	box-sizing: border-box;
+}
+*:focus{
+	outline: none;
+}
+
+/*Backround image*/
+main.imagen{
+	position: relative;
+	height: 100vh;
+	background-image: url('/images/imagen.jpeg');
+	background-size: cover;
+	background-position: center;
+}
+
+/*Positioning all*/
+.left{
+	width: 200px;
+	
+	
+	position: absolute;
+	left: 1%;
+	text-align: left;
+}
+
+.center{
+	width: 700px;
+	
+	
+	position: absolute;
+	left: 50%;
+	margin-left: -350px;
+	text-align: center;
+
+}
+.right{
+	width: 200px;
+	
+	
+	position: absolute;
+	right: 1%;
+	text-align: right;
+}
+.top{
+	top:3%;
+}
+/*center section*/
+.time{
+	top: 30%;
+	
+	font-size: 1050%;
+	
+}
+.good{
+	top: 60%;
+	font-size: 337.5%;
+	
+}
+.focus{
+	top: 80%;
+}
+/*end of center section*/
+.bottom{
+	bottom: 2%;
+}
+/*extra styles*/
+.left-top{
+	display: flex;
+	position: relative;
+
+}
+/*inputs*/
+input{
+	background: transparent;
+	border:none;
+	border-bottom: solid #fff;
+	font-size: 100%;
+}
+label#search{
+	color: #999;
+	font-size: 15px;
+	font-weight: normal;
+	position: absolute;
+	pointer-events: none;
+	left: 20%;
+	top: 0;
+}
+input.search{
+	padding:5px 2px 5px 33px;
+}
